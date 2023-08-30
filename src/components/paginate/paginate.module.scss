@@ -1,0 +1,17 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2;
+  min-height: 8rem;
+}
+
+.buttonPrev {
+  background: none;
+  border: none;
+}
+
+.buttonNext {
+  background: none;
+  border: none;
+}

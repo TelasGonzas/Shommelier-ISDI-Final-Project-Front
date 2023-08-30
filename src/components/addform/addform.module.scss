@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 45rem;
+}
+
+.addForm {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border: var(--color-border);
+  margin: 4rem;
+  padding: 1rem;
+  height: 38rem;
+}
+
+.image {
+  width: 30rem;
+  height: 100%;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  height: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputFile {
+  display: none;
+}
+
+.img {
+  width: 16rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.button {
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  width: 6rem;
+  color: var(--color-text);
+}

@@ -1,0 +1,38 @@
+:root {
+  --color-text: black;
+  --color-background: white;
+  --color-border: black 0.2rem solid;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: white;
+    --color-background: black;
+    --color-border: white 0.2rem solid;
+  }
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.button {
+  background: none;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  cursor: pointer;
+  padding: 0.5rem;
+  padding-inline: 1rem;
+  border: none;
+}
+
+.button:hover {
+  transition: 0.7s;
+  scale: 1.2;
+  text-decoration: none;
+}
